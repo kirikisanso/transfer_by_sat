@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  border: 2px solid;
+  background-color: aquamarine;
+  background-image: url(https://fonoteka.top/uploads/posts/2022-02/1645396798_19-phonoteka-org-p-fon-dlinnii-po-gorizontali-22.jpg);
+  position: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1600px;
+}
+
+ul {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 300px;
+  list-style: none;
+}
+
+li {
+  color: rgb(7, 37, 51);
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.con-one {
+  height: 500px;
+  background-color: aqua;
+  border-bottom: 3px solid;
+  margin-top: -20px;
+  background-image: url(https://images.wallpaperscraft.ru/image/single/priroda_ozero_les_167639_2560x1440.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.con-two {
+  height: 500px;
+  background-color: rgb(40, 182, 123);
+  border-bottom: 3px solid;
+  margin-top: -20px;
+  background-image: url(https://wallbox.ru/resize/2560x1440/wallpapers/main/201602/3c2ca7bbd8b2aab.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.con-three {
+  height: 500px;
+  background-color: rgb(17, 206, 206);
+  border-bottom: 3px solid;
+  margin-top: -20px;
+  background-image: url(https://s1.1zoom.me/b5258/898/Switzerland_Mountains_Lake_Scenery_Lake_Walensee_537496_2560x1440.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.con-foure {
+  height: 500px;
+  background-color: rgb(65, 168, 168);
+  border-bottom: 3px solid;
+  margin-top: -20px;
+  background-image: url(https://s1.1zoom.ru/big3/305/Lake_Mountains_Forests_456964.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer {
+  margin-top: -20px;
+  background-color: aqua;
+  height: auto;
+}
+
+footer h1 {
+  display: flex;
+  justify-content: center;
+}
